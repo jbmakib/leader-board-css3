@@ -185,6 +185,9 @@ hr {
     .course .course-banner img {
         width: 100%;
     }
+    .course {
+        margin: auto;
+    }
 }
 
 
@@ -193,12 +196,29 @@ hr {
 @media only screen and (min-width: 688px) and (max-width:992px) {
     .container {
         width: 100%;
+        padding: 0;
     }
     .players,
     .courses {
         grid-template-columns: repeat(2, 1fr);
     }
+    .player {
+        justify-content: center;
+    }
+    .section-title {
+        text-align: center;
+    }
     .blogs {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .blog {
+        margin: auto;
+        width: 80%;
+    }
+    .blog-title {
+        margin-top: 16px;
+    }
+    .course {
+        margin: auto;
     }
 }

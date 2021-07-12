@@ -86,6 +86,8 @@ hr {
 
 .blog-title {
     font-size: 20px;
+    margin: 0;
+    margin-top: 6px;
 }
 
 .blog-author {
@@ -166,6 +168,22 @@ hr {
     .player,
     .blog {
         flex-direction: column;
+    }
+    .blog-info {
+        margin-left: 0;
+    }
+    .section-title {
+        text-align: center;
+    }
+    .top-blogs {
+        text-align: center;
+    }
+    .blog .thumbnail img {
+        width: 80%;
+        height: 150px;
+    }
+    .course .course-banner img {
+        width: 100%;
     }
 }
 

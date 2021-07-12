@@ -111,7 +111,7 @@ hr {
 
 .course {
     width: 252px;
-    height: 270px;
+    height: 290px;
     box-shadow: 0 5px 13.36px rgba(0, 0, 0, 0.05);
     padding: 15px 15px 16px 13px;
     border-radius: 15px;
@@ -123,8 +123,8 @@ hr {
 } */
 
 .course .course-banner img {
-    width: 224px;
-    height: 104px;
+    width: 250px;
+    height: 120px;
 }
 
 .course .course-info {
